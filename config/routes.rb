@@ -4,7 +4,11 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       resources :categories, only: %w(index)
-      resources :products, only: %w(index update)
+      resources :products, only: %w(index update) do
+        collection do
+          get :details
+        end
+      end
     end
   end
 end

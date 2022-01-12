@@ -13,6 +13,10 @@ class API::V1::ProductsController < API::BaseController
     end
   end
 
+  def details
+    @products = Product.where(id: params[:product_ids])
+  end
+
   protected
 
   def product_params
