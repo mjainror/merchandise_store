@@ -14,7 +14,7 @@ class API::V1::ProductsController < API::BaseController
   end
 
   def details
-    @products = Product.where(id: params[:product_ids])
+    render json: Product.get_cart_details(params[:products])
   end
 
   protected
