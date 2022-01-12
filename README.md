@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This codebase contains the basic API to create the Product, Categories and listing them with their prices and discounts applied through some discount rules.
 
 * Ruby version
+ruby-2.7.2
 
-* System dependencies
+* Rails version
+6.1.4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* API Instructions ( POSTMAN collection public link )
+https://www.getpostman.com/collections/21b2563dcf951516b3f8
